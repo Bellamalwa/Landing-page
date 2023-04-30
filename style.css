@@ -1,0 +1,182 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.intro {
+    padding: 20px;
+
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+	margin-top: -1em;
+}
+.intro p {
+    font-size: 20px;
+}
+
+.hero {
+	background-image: url('hero.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 50px;
+	text-align: center;
+	color: #fff;
+}
+
+.hero h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+.hero p {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.cta {
+	background-color: #ff5722;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.service {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.product {
+	width: 30%;
+	margin-bottom: 50px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	padding: 20px;
+    margin-right: 10em;
+}
+
+.product img {
+	width: 100%;
+}
+
+.product h3 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.product p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.testimonial {
+	background-color: #f7f7f7;
+	padding: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.testimonial blockquote {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.testimonial cite {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.newsletter {
+	background-color: #eee;
+	padding: 50px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.newsletter h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+.newsletter label {
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.newsletter input[type="email"] {
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+.newsletter input[type="submit"] {
+	background-color: #ff5722;
+	color: #fff;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+footer p {
+	margin: 0;
+}
+
+@media (max-width: 768px) {
+	.products {
+		flex-direction: column;
+	}
+
+	.product {
+		width: 100%;
+	}
+}
